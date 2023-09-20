@@ -49,6 +49,11 @@ Git
     `git push [원격저장소 이름] [원격저장소 브랜치]`
 
 - 기본 원격저장소의 이름은 'origin' 기본 브랜치의 이름은 'main'이다.
+- 깃을 처음 사용할 때는 email과 name을 등록해야 한다. (github에서 사용하는 username과 email)
+```
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+```
 
 ### 용어 정리
 - Git(깃) : VCS (Version Control System) 버전 관리 시스템
